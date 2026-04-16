@@ -44,7 +44,7 @@
       box-shadow: 0 14px 55px rgba(0,0,0,0.65), 0 0 0 1px rgba(255,255,255,0.05);
     }
 
-    /* ══ Cover banner ══ */
+    /* ══ Cover banner ══
     .cover {
       height: 90px;
       background: linear-gradient(120deg, #3b0764 0%, #1e1b4b 40%, #0c1a3a 100%);
@@ -61,7 +61,7 @@
         transparent 1px,
         transparent 20px
       );
-    }
+    } */
 
     /* ══ Header section ══ */
     .profile-header {

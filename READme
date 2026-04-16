@@ -1,0 +1,32 @@
+# HNG Stage 1b - Interactive Profile Card
+
+A fully responsive, accessible, and semantic Profile Card component built for the HNG i14 Internship. 
+
+🔗 **[Live Demo on Vercel](https://stage-1-profilecard.vercel.app/)**
+
+## 📌 Project Overview
+This project serves as a digital identity card/portfolio widget. It is built strictly with vanilla web technologies, focusing heavily on semantic HTML structuring, WCAG accessibility standards, and basic DOM manipulation to render a live-updating epoch timestamp.
+
+## ✨ Features & Requirements Met
+- **Semantic HTML5:** Built using meaningful landmarks (`<article>`, `<header>`, `<figure>`, `<nav>`, `<section>`) rather than nested generic divs.
+- **Accessibility (a11y) Focus:**
+  - Includes meaningful `alt` text for the avatar.
+  - The live time update container utilizes `aria-live="polite"` so screen readers can announce changes without interrupting the user.
+  - High color contrast ratios to ensure readability.
+  - External links utilize `target="_blank"` paired with `rel="noopener noreferrer"` for security and privacy.
+- **Real-Time Data:** Features a custom JavaScript interval engine that fetches and displays the current Epoch time in milliseconds (`Date.now()`), refreshing seamlessly on the UI.
+- **Responsive Layout:** Adapts beautifully from 320px mobile screens up to wide desktop monitors using modern CSS layouts.
+- **Automated Testing Ready:** All required `data-testid` attributes have been strictly implemented.
+
+## 🛠️ Tech Stack
+- **HTML5:** Semantic structure and accessibility markers.
+- **CSS3:** Custom properties for theme management, responsive media queries, and modern UI styling.
+- **Vanilla JavaScript (ES6):** Live epoch time rendering engine.
+
+## 🚀 Running Locally
+To view this project locally, clone the repository and open the `index.html` file in your browser. 
+
+```bash
+git clone https://github.com/bukola2005/STAGE-1-profilecard
+cd STAGE 1 PROFILECARD
+# Open index.html in your preferred browser
