@@ -62,25 +62,6 @@ article[data-testid="test-profile-card"]:hover {
     0 0 0 1px rgba(255, 255, 255, 0.05);
 }
 
-/* ══ Cover banner ══
-    .cover {
-      height: 90px;
-      background: linear-gradient(120deg, #3b0764 0%, #1e1b4b 40%, #0c1a3a 100%);
-      position: relative;
-    }
-    .cover::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: repeating-linear-gradient(
-        45deg,
-        rgba(167,139,250,0.04) 0px,
-        rgba(167,139,250,0.04) 1px,
-        transparent 1px,
-        transparent 20px
-      );
-    } */
-
 /* ══ Header section ══ */
 .profile-header {
   padding: 0 1.5rem 1.25rem;
